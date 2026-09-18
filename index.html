@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal de acesso aos quizzes educativos gamificados do 8º e 9º ano.">
+  <title>Quiz Educativo Gamificado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="particles" aria-hidden="true"></div>
+
+  <header class="topo">
+    <div class="logo">
+      <span class="logo-quiz">QUIZ</span>
+      <span class="logo-educativo">EDUCATIVO</span>
+      <span class="logo-gamificado">GAMIFICADO</span>
+    </div>
+    <br>
+    <p class="slogan">ESTUDE • JOGUE • APRENDA • EVOLUA</p>
+  </header>
+
+  <main class="container">
+
+    <!-- TELA 1: escolha da série -->
+    <section id="tela-series" class="tela ativa">
+      <div class="hero">
+        <div class="hero-badge">🎮 PORTAL DE QUIZZES</div>
+        <h1>Escolha sua série</h1>
+        <p>Acesse os quizzes da sua turma e da disciplina que deseja estudar.</p>
+      </div>
+
+      <div class="series-grid">
+        <button class="serie-card oitavo" data-serie="8º Ano">
+          <span class="serie-icone">🎮</span>
+          <span class="serie-numero">8º</span>
+          <span class="serie-texto">ANO</span>
+          <small>8 quizzes disponíveis</small>
+        </button>
+
+        <button class="serie-card nono" data-serie="9º Ano">
+          <span class="serie-icone">🏆</span>
+          <span class="serie-numero">9º</span>
+          <span class="serie-texto">ANO</span>
+          <small>8 quizzes disponíveis</small>
+        </button>
+      </div>
+    </section>
+
+    <!-- TELA 2: disciplinas -->
+    <section id="tela-disciplinas" class="tela">
+      <button id="btn-voltar" class="voltar">← Escolher outra série</button>
+
+      <div class="cabecalho-serie">
+        <span class="mini-badge">QUIZ EDUCATIVO</span>
+        <h2 id="titulo-serie">8º ANO</h2>
+        <p>Escolha uma disciplina para começar o desafio!</p>
+      </div>
+
+      <div id="disciplinas-grid" class="disciplinas-grid"></div>
+
+      <div class="rodape-mensagem">
+        ⭐ <strong>Bons estudos!</strong> ⭐
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p> &copy; 2026. Todos os direitos reservados <br><br> Alunos do 3º ano B - SENAI Multimídia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
