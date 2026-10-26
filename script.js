@@ -11,7 +11,7 @@
 
 const quizzes = {
   "8º Ano": {
-    "Português": ".../",
+    "Português": "https://jonataspereira-prog.github.io/quiz-8-portugues/",
     "Matemática": "https://jonataspereira-prog.github.io/quiz-8-matematica/",
     "Ciências": "https://jonataspereira-prog.github.io/quiz-8-ciencias/",
     "Geografia": "https://jonataspereira-prog.github.io/quiz-8-geografia/",
